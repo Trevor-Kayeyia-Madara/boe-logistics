@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login_form{
+    background-color: blue;
+    display: flex;
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.input{
+    margin: 10px;
+    height: 30px;
+    background-color: gold;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: blue;
+}
+
+.submitBtn{
+    margin-top: 100px;
+    height: 40px;
+    width: 80px;
+    background-color: gold;
+    border: none;
+    border-radius: 10px;
+}
