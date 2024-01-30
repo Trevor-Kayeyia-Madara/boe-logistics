@@ -61,3 +61,7 @@ body {
 .submitBtn:hover {
     background-color:var(--blue);
 }
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
