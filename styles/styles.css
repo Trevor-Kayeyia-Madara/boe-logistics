@@ -11,7 +11,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../images/icons.jpg') ;
+    background-image: url('../images/icons.jpg');
     background-size: contain;
     padding: 0;
     display: flex;
