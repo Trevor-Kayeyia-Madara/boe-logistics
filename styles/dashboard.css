@@ -35,4 +35,5 @@ body {
 
 .regFrame{
     width: 100%;
+    visibility: hidden;
 }
