@@ -25,3 +25,14 @@ body {
     background-color: var(--blue);
 }
 
+.btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 5px;
+    background-color: var(--gold);
+}
+
+.regFrame{
+    width: 100%;
+}
