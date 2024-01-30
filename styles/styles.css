@@ -43,8 +43,14 @@
 
 body {
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     background-image: url('../images/icons.jpg');
     background-size: contain;
+=======
+    /*background-image: url('images/icons.png');*/
+    background-size:contain;
+    /*background-color: #45a049;*/
+>>>>>>> 9c9d83a12d3b263b1dbf792a56ee7252199cbd70
     margin: 0;
     padding: 0;
     display: flex;
