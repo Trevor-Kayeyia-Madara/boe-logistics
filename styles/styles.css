@@ -92,3 +92,12 @@ body {
     display:flex ;
     gap: 10px;
 }
+
+
+.menu{
+    background-color: var(--blue);
+    width: 200px;
+    height: 100%;
+    position: relative;
+    margin-left: -100px;
+}
