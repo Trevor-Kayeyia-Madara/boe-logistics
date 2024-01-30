@@ -9,10 +9,19 @@
 
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-size: contain;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
 .menu{
-    background-color: var(--blue);
-    width: 200px;
+    width: 300px;
     height: 100%;
     position: relative;
     margin-left: 0px;
+    background-color: var(--blue);
 }
+
