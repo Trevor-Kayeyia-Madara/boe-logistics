@@ -3,54 +3,16 @@
     padding: 0px;
 }
 
-/*body{
-    
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
+:root{
+    --blue: #0d4683;
+    --gold: #c7943f;
 
-.login_form{
-    background-color: blue;
-    display: flex;
-    height: 400px;
-    width: 300px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 8px;
 }
-
-.input{
-    margin: 10px;
-    height: 30px;
-    background-color: gold;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    color: blue;
-}
-
-.submitBtn{
-    margin-top: 100px;
-    height: 40px;
-    width: 80px;
-    background-color: gold;
-    border: none;
-    border-radius: 10px;
-}
-*/
 
 body {
     font-family: Arial, sans-serif;
-<<<<<<< HEAD
     background-image: url('../images/icons.jpg');
     background-size: contain;
-=======
-    /*background-image: url('images/icons.png');*/
-    background-size:contain;
-    /*background-color: #45a049;*/
->>>>>>> 9c9d83a12d3b263b1dbf792a56ee7252199cbd70
     margin: 0;
     padding: 0;
     display: flex;
@@ -84,7 +46,7 @@ body {
 }
 
 .submitBtn {
-    background-color: gold;
+    background-color: var(--gold);
     color: white;
     padding: 10px 15px;
     border: none;
@@ -97,5 +59,5 @@ body {
 }
 
 .submitBtn:hover {
-    background-color:blue;
+    background-color:var(--blue);
 }
