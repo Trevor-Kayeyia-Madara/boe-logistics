@@ -43,7 +43,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/icons.jpg');
+    /*background-image: url('images/icons.png');*/
+    /*background-color: #45a049;*/
     margin: 0;
     padding: 0;
     display: flex;
