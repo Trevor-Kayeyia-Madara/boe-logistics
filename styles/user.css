@@ -22,15 +22,14 @@ body {
 }
 
 table{
+    width: 90%;
+    height: auto;
     background-color: transparent;
     backdrop-filter: blur(20px);
-}
-
-table,tr{
-    margin: 10px;
-    border: 2px solid black;
+    
 }
 
 table,tr,th{
     padding: 5px;
+
 }
