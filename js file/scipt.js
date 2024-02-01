@@ -31,3 +31,29 @@ dashboard.onclick = function(){
     addUser.style.backgroundColor=hiddenColor;
     dashboard.style.backgroundColor=visibleColor;
 }
+function showAgentDetails(tab) {
+    // Reset styles for all buttons
+    const buttons = document.querySelectorAll('#agentMenu button');
+    buttons.forEach(button => button.classList.remove('active'));
+  
+    // Highlight the selected button
+    const selectedButton = document.querySelector(`#agentMenu button:nth-child(${buttons.length + 1})`);
+    selectedButton.classList.add('active');
+  
+    // Display agent details based on the selected tab
+    const agentDetailsSection = document.getElementById('agentDetails');
+    switch (tab) {
+      case 'profile':
+        agentDetailsSection.innerHTML = '<h2>Profile Details</h2><p>Agent profile information goes here.</p>';
+        break;
+      case 'ordersSent':
+        agentDetailsSection.innerHTML = '<h2>Orders Sent</h2><p>List of orders sent by the agent goes here.</p>';
+        break;
+      case 'ordersReceived':
+        agentDetailsSection.innerHTML = '<h2>Orders Received</h2><p>List of orders received by the agent goes here.</p>';
+        break;
+      default:
+        agentDetailsSection.innerHTML = '<h2>No details available</h2>';
+    }
+  }
+  
